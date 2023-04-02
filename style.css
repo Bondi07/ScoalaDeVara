@@ -1,0 +1,417 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+ 
+header{
+    background-color: #fff;
+    width: 100%;
+    height: 150px;
+    
+}
+
+header .logo{
+    float: left;
+    padding-left: 2px;
+    padding-top: 1px;
+    margin-top: 0;
+
+
+}
+
+header .headre-name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    color: #111;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+
+}
+
+header nav ul{
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+
+
+}
+
+header nav ul li{
+    display: inline-block;
+    float: left;
+    list-style: none;
+    padding: 0 15px;
+
+}
+
+header nav ul li a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #111;
+    text-transform: uppercase;
+    
+
+}
+
+a:visited, a:link {
+    color : #111;
+    cursor: pointer;
+    font-weight: 500;
+}
+a:hover {
+    color : #a43b55;
+    text-decoration : none;
+    background:none;
+}
+
+@media only screen  and (min-width: 1000px){
+    header .logo{
+        float: left;
+        
+        
+    }   
+    
+    header .headre-name{
+        margin: 31px 0;
+        text-align: left;
+        line-height: 38px;
+        padding: 10px 20px 0 40px;
+        border-right: 3px solid #111;
+        float: left;
+    }
+
+    header nav ul{  
+        margin: 20px 0 0 20px;
+        float: left;
+    }
+    
+    header nav ul li a{
+        line-height: 80px; 
+    
+    }
+    
+}
+
+
+/*INDEX*/
+
+.index-banner{
+    width: 100%;
+    height: calc(100vh - 150px);
+    background-image: url(images/pozaa1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: table;
+}
+
+.vertical-center{
+    display: table-cell;
+    vertical-align: middle; 
+}
+
+.index-banner h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 60px;
+    text-shadow: 1px 1px 3px rgb(114, 68, 68);
+    color: #111;
+    text-align: center;
+}
+
+.index-banner h3{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    font-weight: 200;
+    font-style: italic;
+    line-height: 24px; /*-----AKO IMA DUZI TEKST*/
+    text-shadow: 1px 1px 3px rgb(148, 85, 85);
+    color: rgb(10, 10, 10);
+    text-align: center;
+}
+
+.index-boxlink-square {
+    margin: 16px 16px 16px 16px;
+    width: calc(100% - 32px);
+    height: 100px;
+    background-color: #f2f2f2;
+    
+    
+}
+
+.index-boxlink-square h3{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 50px;
+    color: #111;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.index-boxlink-rectangle{
+    margin: 16px 16px 0;
+    width: calc(100% - 32px);
+    height: 100px;
+    background-color: #f2f2f2;
+    
+
+}
+
+.index-boxlink-rectangle h3{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 50px;
+    color: #111;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.index-boxlink-rectangle:hover{
+    background-color: darkgray;
+    
+}
+.index-boxlink-square:hover{
+   background-color: darkgrey;
+}
+
+.img-container {
+    text-align: center;
+    float: center;
+    padding-top: 20px;
+}
+
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:20px;
+    position:relative;
+    height:0;
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50px;
+    position:relative;
+    height:500px;
+    width: 100%;
+}
+
+
+.despre-noi{
+    
+    background-color: whitesmoke;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 40px;
+    color: #111;
+    float: left;
+
+}
+
+.despre-noi-poza{
+    
+   
+    float: center;
+    background-color: #fff;
+    
+}
+.tarife{
+    float: left;
+    background-color: whitesmoke;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 30px;
+    color: #111;
+    padding-left: 50px;
+    padding-top: 50px;
+    width: calc(100% - 50px);
+    
+}
+
+@media only screen  and (min-width: 1000px){
+    .wrapper{
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+    .index-banner{
+        height: 450px;
+    }
+
+    .index-banner h3{
+       display: block;
+       width: 600px;
+       margin: 0 auto;
+    }
+    .index-boxlink-square{
+        width: calc(25% - 20px) !important;
+    }
+    .index-boxlink-rectangle{
+        width: calc(50% - 20px) !important;
+
+    }
+
+    .index-boxlink-square, .index-boxlink-rectangle{
+        margin: 20px 10px 0;
+        height: 230px;
+        float: left; 
+
+    }
+
+    .id-links{
+        padding-bottom: 20px;
+        overflow: hidden;
+
+    }
+
+    .index-boxlink-square h3, .index-boxlink-rectangle h3{
+        line-height: 130px;
+    }
+    .despre-noi{
+        width: 900px;
+        height: 350px;
+        float: left;
+        padding-left: 50px;
+        padding-top: 40px;
+    }
+
+    .despre-noi-poza{
+       float: right;
+       margin-top: 20px;
+       margin-right: 40px;
+       margin-bottom: 20px;
+       margin-bottom: 10px;
+       width: 500px;
+       height: 350px;
+    }
+
+    
+
+}
+
+
+
+
+/* FOOTER */
+footer{
+    width: calc(100% - 85px);
+    padding: 50px 40px ;
+    margin-top: 20px;
+    background-color: rgb(195, 141, 75);
+    overflow: hidden;
+}
+
+footer ul{
+    width: fit-content;
+    float: left; 
+    padding-left: 5px; 
+ }
+
+footer ul li{
+    display: block; 
+    list-style: none;
+    color: rgb(0, 0, 0);
+
+ }
+
+footer ul li a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #111;
+    line-height: 15px ;
+ }
+
+ .footer-dr{
+    float: right;
+    line-height: 30px;
+
+}
+.link-uri{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #111;
+    line-height: 30px;
+}
+.link-uri ul li{
+    display: block; 
+    list-style: none;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    
+ }
+
+/*wattermartk*/
+
+.wattermark{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 999;
+    opacity: 0.4;
+    text-align: right;
+    background-color:wheat;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 50%;
+}
+
+.wattermark:hover{
+    background-color: #a43b55;
+
+}
+.footer-copyright{
+     float: left;   
+}
+
+
+@media only screen  and (min-width: 1000px){
+    footer ul li a{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        color: #111;
+        line-height: 10px ;
+     }
+    footer{
+        width: calc(100% - 80px);
+     }
+    
+     
+    footer ul{
+        width: fit-content;
+        float: left; 
+        padding-left: 30px;
+        padding-right: 200px; 
+    }
+
+    footer ul li{
+        font-size: 20px;
+        text-transform: uppercase;    
+
+    }
+    .footer-dr{
+        text-transform: uppercase ;
+        font-size: 20px;
+
+    }
+
+}

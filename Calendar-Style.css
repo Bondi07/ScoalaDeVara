@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.name{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color: black;
+    text-transform: uppercase;
+    background-color:whitesmoke;
+}
+h3{
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+table{
+    width: 1480px;
+    height: 450px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-collapse: separate;
+    border-spacing: 0;
+    table-layout: auto;
+    empty-cells: show;
+    font-size: 20px;
+}
+th{
+    background-color:whitesmoke;
+    padding:10px;
+
+}
+tr{
+    padding: 20px;
+}
+
+
+
+
+/* FOOTER */
+footer{
+    width: 100%;
+    height: 80px;
+    margin-top: 20px;
+    padding-top: 40px;
+    background-color: rgb(195, 141, 75);
+}
+
+/*wattermartk*/
+
+.wattermark{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 999;
+    opacity: 0.4;
+    text-align: right;
+    background-color:wheat;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 50%;
+}
+
+.wattermark:hover{
+    background-color: #a43b55;
+
+}

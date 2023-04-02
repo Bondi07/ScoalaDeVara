@@ -1,0 +1,104 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+
+
+}
+a:visited, a:link {
+    color : rgb(55, 69, 165);
+    cursor: pointer;
+    font-weight: 500;
+}
+a:hover {
+    color: #a43b55;
+    font-weight: 500;
+    cursor: pointer;
+}
+.headr-logo{
+    background-color: white;
+
+}
+header .header-name-organizatori h1{
+    margin-top: 100px;
+    margin-left: 150px;
+    font-family:'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.organizatori{
+    width: 550px;
+    padding-left: 150px;
+    padding-top: 50px;
+    color: black;
+    font-family: serif;
+    font-weight: 500;
+}
+.org2{
+    width: 350px;
+    padding-left: 150px;
+    padding-top: 100px;
+    color: black;
+    font-family: serif;
+    font-weight: 500;
+}
+.org3{
+    width: 350px;
+    padding-left: 150px;
+    padding-top: 100px;
+    color: black;
+    font-family: serif;
+    font-weight: 500;
+}
+.org4{
+    width: 350px;
+    padding-left: 150px;
+    padding-top: 100px;
+    color: black;
+    font-family: serif;
+    font-weight: 500;
+
+}
+.org5{
+    width: 350px;
+    padding-left: 150px;
+    padding-top: 100px;
+    color: black;
+    font-family: serif;
+    font-weight: 500;
+
+}
+
+
+
+
+/*FOOTER*/
+.wattermark{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 999;
+    opacity: 0.4;
+    text-align: right;
+    background-color:wheat;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 50%;
+}
+
+.wattermark:hover{
+    background-color: #a43b55;
+
+}
+footer{
+    width: 100%;
+    height: 80px;
+    padding-top: 40px;
+    margin-top: 20px;
+    background-color: rgb(195, 141, 75);
+    overflow: hidden;
+    text-transform: uppercase;
+ }
+

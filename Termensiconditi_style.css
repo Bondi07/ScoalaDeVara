@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    color: #111;
+    margin-top: 30px;
+    margin-left: 50px;
+    padding-top: 50px;
+}
+/*MAIN*/
+.txt1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #111;
+    margin-top: 10px;
+    margin-left: 70px;
+    padding-top: 10px;
+    line-height: 40px;
+
+}
+.txt2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #111;
+    margin-top: 10px;
+    margin-left: 70px;
+    padding-top: 10px;
+    line-height: 40px;
+}
+.txt3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #111;
+    margin-top: 10px;
+    margin-left: 70px;
+    padding-top: 10px;
+    line-height: 40px;
+}
+.txt4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #111;
+    margin-top: 10px;
+    margin-left: 70px;
+    padding-top: 10px;
+    line-height: 40px;
+}
+.txt5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #111;
+    margin-top: 10px;
+    margin-left: 70px;
+    padding-top: 10px;
+    line-height: 40px;
+}
+.txt6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #111;
+    margin-top: 10px;
+    margin-left: 70px;
+    padding-top: 10px;
+    line-height: 40px;
+}
+.txt7{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #111;
+    margin-top: 10px;
+    margin-left: 70px;
+    padding-top: 10px;
+    line-height: 40px;
+}
+.txt8{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #111;
+    margin-top: 10px;
+    margin-left: 70px;
+    padding-top: 10px;
+    line-height: 40px;
+}
+a:visited, a:link {
+    color : #111;
+    cursor: pointer;
+    font-weight: 500;
+}
+a:hover {
+    color : #a43b55;
+    text-decoration : none;
+    background:none;
+}
+
+/* FOOTER */
+footer{
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    padding-top: 25px;
+    background-color: rgb(195, 141, 75);
+    overflow: hidden;
+}
+
+/*wattermartk*/
+
+.wattermark{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 999;
+    opacity: 0.4;
+    text-align: right;
+    background-color:wheat;
+    color: #fff;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 50%;
+}
+
+.wattermark:hover{
+    background-color: #a43b55;
+
+}

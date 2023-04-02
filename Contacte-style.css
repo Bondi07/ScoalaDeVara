@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a:visited, a:link {
+    color : rgb(0, 0, 0);
+    cursor: pointer;
+    font-weight: 500;
+}
+a:hover {
+    color : #b1284a;
+    text-decoration : none;
+    background:none;
+}
+h3, h4, h5{
+    font-weight: 100;
+
+}
+
+.h-name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    color: #111;
+    text-transform: uppercase;
+    padding-top: 100px;
+    padding-left: 70px; 
+}
+.content{
+    margin: 0 auto;
+    padding: 0 30px 30px;
+}
+.informatii{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 70px;
+    color: #111;
+    padding-top: 50px;
+    padding-left: 70px;
+    background-color: whitesmoke;
+    width : 570px;
+    padding : 0 30px 30px;
+    float : left;
+    height: 450px;
+
+}
+.maps{
+ 
+    float: right;
+    padding-top: 10px;
+    padding-right: 20px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+
+
+
+/* FOOTER */
+footer{
+    width: 100% ;
+    height: 80px;
+    margin-top: 20px;
+    padding-top: 40px;
+    background-color: rgb(195, 141, 75);
+    overflow: hidden;
+}
+.wattermark{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 999;
+    opacity: 0.4;
+    text-align: right;
+    background-color:wheat;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 50%;
+}
+
+.wattermark:hover{
+    background-color: #a43b55;
+
+}
